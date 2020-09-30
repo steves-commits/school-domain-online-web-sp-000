@@ -13,7 +13,7 @@ class School
     @student_name = name
     @grade = grade
     if roster.include?(grade) == FALSE
-      
+      @roster[grade] = []
   
 end
   
